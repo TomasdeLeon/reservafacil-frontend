@@ -1,0 +1,89 @@
+.mis-favoritos-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.favoritos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.favorito-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.favorito-card:hover {
+  transform: scale(1.02);
+}
+
+.favorito-card img {
+  max-width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.favorito-card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.favorito-card p {
+  font-size: 0.95rem;
+  color: #666;
+  min-height: 50px;
+}
+
+.favorito-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff5252;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.favorito-card button:hover {
+  background-color: #e04848;
+}
+
+.btn-detalle {
+  background-color: #007bff;
+  margin-left: 0.5rem;
+}
+
+.btn-detalle:hover {
+  background-color: #0056b3;
+}
+
+.btn-volver {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-volver:hover {
+  text-decoration: underline;
+}
+
+.mensaje-favorito {
+  background-color: #e8f0fe;
+  border: 1px solid #c3dafe;
+  padding: 0.75rem;
+  border-radius: 5px;
+  color: #2c5282;
+  margin-top: 1rem;
+}

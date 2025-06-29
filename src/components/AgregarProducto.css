@@ -1,0 +1,112 @@
+.agregar-producto-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.agregar-producto-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: left;
+}
+
+.agregar-producto-card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.agregar-producto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.agregar-producto-form input,
+.agregar-producto-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fefefe;
+}
+
+.agregar-producto-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.agregar-producto-form button {
+  padding: 0.75rem;
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.agregar-producto-form button:hover {
+  background-color: #005fa3;
+}
+
+.agregar-producto-mensaje {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.error-text {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.agregar-icono {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem auto;
+  opacity: 0.9;
+}
+
+.caracteristicas-checkboxes {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.caracteristicas-checkboxes label {
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* errores */
+.error {
+  border: 1px solid #e53935;
+}
+.error-text {
+  color: #e53935;
+  font-size: 0.85rem;
+}
+
+/* feedback ok */
+.agregar-producto-mensaje {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+

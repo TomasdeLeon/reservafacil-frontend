@@ -1,0 +1,24 @@
+.caracteristicas-lista {
+  margin-top: 2rem;
+}
+
+.grid-caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.caracteristica-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.caracteristica-icono {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}

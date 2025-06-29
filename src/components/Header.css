@@ -1,0 +1,87 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  background: linear-gradient(90deg, #0077cc, #0066b3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Logo + Nombre */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.75rem;
+}
+
+.site-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Botones */
+.header-right button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #0077cc;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.header-right button:hover {
+  background-color: #f0f0f0;
+}
+
+.header-right span {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.btn-admin {
+  background-color: #2a8bf2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-admin:hover {
+  background-color: #1f6fd1;
+}
+
+.btn-mis-productos {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-mis-productos:hover {
+  background-color: #27ae60;
+}
+
+
+

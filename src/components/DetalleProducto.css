@@ -1,0 +1,356 @@
+.detalle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.detalle-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.detalle-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.botones-producto {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-editar {
+  background-color: #2a8bf2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-editar:hover {
+  background-color: #1f6fd1;
+}
+
+.btn-eliminar {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-eliminar:hover {
+  background-color: #c0392b;
+}
+
+.btn-volver {
+  display: inline;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  color: #2a8bf2;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #e0e0e0;
+  text-decoration: underline;
+}
+
+.caracteristicas-detalle {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.caracteristicas-detalle h4 {
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.caracteristicas-detalle ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.caracteristicas-detalle li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.creado-por {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+.detalle-caracteristicas {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.detalle-caracteristicas h4 {
+  margin-bottom: 0.5rem;
+  color: #2a8bf2;
+}
+
+.detalle-caracteristicas ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.detalle-caracteristicas li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.reserva-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.reserva-box h4 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.btn-reservar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-reservar:hover {
+  background-color: #218838;
+}
+
+.reserva-mensaje {
+  margin-top: 0.75rem;
+  font-weight: bold;
+  color: #155724;
+  background-color: #d4edda;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #c3e6cb;
+}
+
+.reserva-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 0.75rem;
+}
+
+.btn-ver-reservas {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-ver-reservas:hover {
+  background-color: #5146d8;
+}
+
+.disponible {
+  color: green;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.no-disponible {
+  color: red;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.politicas-producto {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  max-width: 700px;
+}
+
+.politicas-producto h3 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+.politicas-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bloque-politica {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.bloque-politica h4 {
+  margin-bottom: 10px;
+}
+
+.bloque-politica ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.compartir-redes {
+  margin-top: 10px;
+}
+
+.compartir-redes button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #1877F2;
+  color: white;
+}
+
+.btn-twitter {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.detalle-resenas {
+  margin-top: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.detalle-resenas h4 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.detalle-resenas ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.detalle-resenas li {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.detalle-resenas li:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalle-resenas li strong {
+  color: #333;
+}
+
+.detalle-resenas li em {
+  color: #555;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.form-resena {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-resena label {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.form-resena select,
+.form-resena textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.form-resena textarea {
+  min-height: 80px;
+}
+
+.form-resena button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-resena button:hover {
+  background-color: #1b5e20;
+}
+
+.form-resena p {
+  margin: 0;
+  font-weight: 500;
+  color: #c62828;
+}
+
+.producto-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  background-color: #eee;
+}
+
