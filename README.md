@@ -1,2 +1,0 @@
-# reservafacil-frontend
-ReservaFacil - Frontend
